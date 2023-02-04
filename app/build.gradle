@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.plcoding.permissionsguidecompose'
+    namespace 'com.realityexpander.permissionsguidecompose'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.plcoding.permissionsguidecompose"
+        applicationId "com.realityexpander.permissionsguidecompose"
         minSdk 24
         targetSdk 33
         versionCode 1
