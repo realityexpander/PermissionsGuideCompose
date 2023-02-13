@@ -48,7 +48,7 @@ class MainActivity : ComponentActivity() {
                     rememberLauncherForActivityResult(
                         contract = ActivityResultContracts.RequestMultiplePermissions(),
                         onResult = { permissions ->
-                            // permissions.forEach { (permissionStr, isGranted) -> // not good bc `permissions` is in alpha order, not our queue order
+                            // permissions.forEach { (permissionStr, isGranted) -> // not good bc `permissions` is in alpha-order, not our queue order
                             permissionsToRequest.forEach { permissionStr ->
                                 viewModel.onPermissionResult(
                                     permissionStr = permissionStr,
